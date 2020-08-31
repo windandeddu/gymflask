@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/css/global.css">
+</head>
+<body class="pages darktheme">
+<div class="page">
+    <header>
+        <a href="{{ url_for('index') }}"><img src="/static/img/logo.png" class="dmenu logo mobmenu"></a>
+        <div class="descmenu">
+            <a href="{{ url_for('index') }}"><img src="/static/img/logo.png" class="dmenu logo"></a>
+            <a href="{{ url_for('prices') }}" class="dmenu dmenua">Цены</a>
+            <a href="{{ url_for('schedule') }}" class="dmenu dmenua">Расписание</a>
+            <a href="{{ url_for('reviews') }}" class="dmenu dmenua">Отзывы</a>
+            <a href="{{ url_for('contacts') }}" class="dmenu dmenua" s>Контакты</a>
+        </div>
+        <div class="mobmenu">
+
+            <div class="overlay">
+                <nav class="overlayMenu">
+                    <ul role="menu">
+                        <li><a href="{{ url_for('index') }}" role="menuitem">Главная</a></li>
+                        <li><a href="{{ url_for('prices') }}" role="menuitem">Цены</a></li>
+                        <li><a href="{{ url_for('schedule') }}" role="menuitem">Расписание</a></li>
+                        <li><a href="{{ url_for('reviews') }}" role="menuitem">Отзывы</a></li>
+                        <li><a href="{{ url_for('contacts') }}" role="menuitem">Контакты</a></li>
+                        <button class="theme-button2" type="button">Изменить тему</button>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="navBurger" role="navigation" id="navToggle"></div>
+        <script src="/static/scripts/mobile.js"></script>
+    </header>
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+    <footer>
+        <hr>
+        <p>©WindAdneddu.space 2020</p></footer>
+</div>
+<button class="theme-button1" type="button">Изменить тему</button>
+<script src="/static/scripts/themechanger.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src="/static/scripts/menu.js"></script>
+</body>
+</html>

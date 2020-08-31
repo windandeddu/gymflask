@@ -1,0 +1,297 @@
+.mobile .pages {
+    background-color: #808080;
+    font-family: Ubuntu;
+    color: white;
+    font-size: 37pt;
+    padding: 20px;
+}
+
+.mobile main{
+    margin: 20px;
+}
+
+.mobile .page {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background-color: #2e2e34;
+}
+
+
+.mobile .logo {
+    display: inline-block;
+    width: auto;
+}
+
+.mobile .index-page {
+    background-image: url(/static/img/mainphoto.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.mobile .description1 {
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.46);
+
+}
+
+.mobile .treiners {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+
+.mobile .h1tr {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.46);
+
+}
+
+.mobile .trb1,.mobile  .trb2,.mobile  .trb3,.mobile  .trb4,.mobile  .trb5,.mobile  .trb6 {
+    position: relative;
+    left: 25%;
+    right: 25%;
+    margin-bottom: 20px;
+    width: 600px;
+    height: 700px;
+}
+
+
+
+.mobile .trholder {
+    position: relative;
+    width: 599px;
+    height: 700px;
+    background: #ff6600;
+    border-radius: 10px;
+}
+
+.mobile .trblock {
+    color: black;
+    font-size: 37pt;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 15px;
+    display: none;
+    border-radius: 10px;
+}
+
+.mobile .trholder:hover .trblock {
+    display: block;
+}
+
+.mobile footer p {
+    padding: 30px;
+    margin-bottom: 5px;
+}
+
+/*n1*/
+.mobile .schedule-page tr{
+    overflow: auto;
+}
+
+.mobile .schedule-page td {
+    border-bottom: 3px solid white;
+    border-right: 3px solid white;
+    background-color: #353553;
+    border-radius: 10px;
+}
+
+.mobile .prices-page table {
+
+    overflow: scroll;
+}
+
+
+.mobile .prices-page td {
+    border-bottom: 3px white solid;
+    border-right: 3px white solid;
+    border-radius: 10px;
+    background-color: #353553;
+}
+
+.mobile .prices-page .price p {
+    color: red;
+    float: right;
+}
+
+.mobile .address {
+    text-align: center;
+}
+
+.mobile .contactUs div {
+    display: inline-block;
+    margin: 30px 0px auto 90px;
+    align-items: center;
+}
+
+.mobile .form input {
+    border-radius: 5px;
+    border: none;
+    height: 20px;
+}
+
+.mobile .form textarea {
+    border-radius: 5px;
+    width: 273px;
+    height: 80px;
+    border: none;
+}
+
+.mobile .form label{
+    padding: 10px;
+}
+.mobile .form #submit{
+    padding: 5px;
+    background-color: red;
+    color: white;
+}
+
+.mobile .pagename{
+    text-align: center;
+}
+
+.mobile .review-page .container {
+    width: 75%;
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px; /* скругление углов блока */
+    padding: 16px; /* внутренние поля */
+    margin: 23px auto; /* внешние отступы */
+    color: black;
+}
+
+.mobile .review-page .container img {
+  float: left; /* обтекание слева */
+  margin-right: 20px; /* пространство между аватаркой и абзацем */
+  border-radius: 50%; /* скругляет аватарку */
+  width: 90px;
+}
+
+.mobile .review-page .container span {
+  font-size: 18px;
+  margin-right: 15px;
+}
+
+.mobile .dmenu {
+    display: inline-block;
+}
+
+.mobile .tr {
+    border-radius: 10px;
+    width: 600px;
+    height: 700px;
+}
+
+.mobile .theme-button1{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+.mobile .descmenu{
+    display: none;
+}
+
+/* дальше не трогаем*/
+
+.lighttheme{
+    background-color: #808080;
+    font-family: Ubuntu;
+    color: black;
+}
+
+.lighttheme .page {
+    background-color: #99b6d0;
+}
+
+.lighttheme a {
+    color: #7b2305;
+}
+
+.lighttheme a:active {
+    color:  #7b2305;
+}
+
+.lighttheme a:visited {
+    color: #7b2305;
+}
+
+.lighttheme .logo {
+    background-color: rgba(0,0,0,0.27);
+    border-radius: 80px;
+}
+.lighttheme .description1 {
+    color: white;
+}
+.lighttheme .h1tr {
+    color: white;
+}
+.lighttheme .sch {
+    color: white;
+}
+.lighttheme .prices-page td {
+    color: white;
+}
+
+/*Просто колорация*/
+
+
+a {
+    color: coral;
+}
+
+a:active {
+    color: chocolate;
+}
+
+a:visited {
+    color: coral;
+}
+
+/*n1*/
+.sch {
+    display: flex;
+    padding: 15px 40px 15px 40px;
+    background-color: red;
+    margin: 2px;
+    border-radius: 10px;
+
+}
+
+
+
+.sch:hover {
+    background-color: #6a0606;
+}
+
+.prices-page {
+    font-weight: bold;
+}
+
+.prdesc:hover ~ .price {
+    background-color: #333392;
+}
+
+.prdesc:hover {
+    background-color: #333392;
+}
+
+.price:hover ~ .prdesc {
+    background-color: #333392;
+}
+
+.price:hover {
+    background-color: #333392;
+}
+/*n1*/
